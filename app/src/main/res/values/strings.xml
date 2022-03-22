@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">LeagueManager</string>
+    <string name="Cup_name">Cup Name Here</string>
+    <string name="How_many">How Many Teams?</string>
+    <string name="ending">\'s Cup</string>
+
+    <string-array name="Cup_no_teams">
+        <item> 2</item>
+        <item> 4</item>
+        <item> 8</item>
+        <item> 16</item>
+
+
+
+
+    </string-array>
+</resources>

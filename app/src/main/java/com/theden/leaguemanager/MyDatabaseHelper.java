@@ -11,8 +11,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
-
-
+/*
 public class MyDatabaseHelper extends SQLiteOpenHelper {
     private Context context;
 
@@ -94,4 +93,4 @@ public class MyDatabaseHelper extends SQLiteOpenHelper {
 
         }
     }
-
+*/

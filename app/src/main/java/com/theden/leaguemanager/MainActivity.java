@@ -23,6 +23,8 @@ import com.google.android.material.snackbar.Snackbar;
 
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
     FloatingActionButton fab1 , fab2, fab3;
     Animation ropen, rclose, fopen, fclose;
@@ -35,12 +37,16 @@ public class MainActivity extends AppCompatActivity {
     private Button save, cancel;
     Spinner spinner;
 
-
-
+Create_Cup.MyDatabaseHelper db;
+ArrayList<String> leaguename, noteams , leagueid;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
+
 
 txtcup = (TextView)findViewById(R.id.cup_txt);
 txtleague=(TextView)findViewById(R.id.league_txt) ;
